@@ -1,0 +1,20 @@
+.app-bar-button {
+    font-family: 'Poppins' !important;
+    font-weight: 400 !important;
+    font-size: large !important;
+    justify-content: space-between;
+    position: relative;
+}
+.app-bar-color {
+    background-color: white;
+    padding: 1% 0 1% 0;
+}
+.app-bar-logo {
+    border-radius: 40%;
+    width: 90px;
+    margin: 1% 0 0 44%;
+} 
+
+.menu-item { 
+    border-top: 1px solid #d6d8e0 !important;
+}

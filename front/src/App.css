@@ -1,0 +1,125 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input{
+  padding: 7px;
+  border-radius: 20px;
+}
+.dugme{
+  padding: 7px;
+  width: 7rem;
+  border-radius: 12px;
+}
+.paddajMalo{
+  padding: 20px;
+}
+.paddajMalo1 {
+  padding: 40px;
+}
+.horizLine{
+  width: 60%;
+  border: 1px solid rgb(72, 146, 220);
+}
+.dekoracija{
+  text-decoration: none;
+}
+.notFoundHome {
+  background-color: rgb(72, 146, 220);
+  margin: auto;
+  padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+  border-radius: 2rem !important;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.notFoundHome:hover {
+  background-color: rgb(37, 77, 117);
+
+}
+.app-bar-color {
+  background-color: rgb(37, 77, 117) !important;
+  padding: 1% 0 1% 0;
+}
+.app-bar-button {
+    background-color: rgb(37, 77, 117) !important;
+  font-family: 'Poppins' !important;
+  font-weight: 200 !important;
+  border-radius: 10px !important;
+  justify-content: space-between !important;
+  
+  
+  position: relative;
+}
+.app-bar-button:hover{
+  background-color: rgb(20, 20, 118) !important;
+}
+.loginStranica{
+  text-align: center;
+  padding-top: 5%;
+}
+.logregforma{
+  margin-top: 5%;
+  background-color: rgb(37, 77, 117);
+  padding: 5px;
+  color:white;
+  
+}
+.loginregcitava{
+  width: 100vw;
+  height: 100vh;
+background-color: #ffffff;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 40px), repeating-linear-gradient(#372cd255, #372cd2);
+}
+.nadirslika{
+  width: 22rem;
+  height: 30rem;
+  border-radius: 50%
+}
+.nadirslika:hover{
+  opacity: 0.8;
+}
+.inputstyle{
+      border:1px solid rgb(37, 77, 117);
+      padding: 16px 20px;
+      border-radius: 4px;
+      background-color: #f1f1f1;
+}
+.kartica{
+  border-radius: 10px;
+  border: 0.01rem solid rgb(37, 77, 117) !important;
+    box-shadow: 3px 3px 3px rgb(72, 123, 174) !important;
+    transition: transform 550ms !important;
+}
+.kartica:hover {
+  transform: translateY(-5px);
+
+}
